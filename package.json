@@ -45,7 +45,7 @@
     "@vitejs/plugin-react": "^5.1.1",
     "typescript": "^5.9.3",
     "vite": "^7.2.2",
-    "vitest": "^4.0.8"
+    "vitest": "^5.1.0"
   },
   "overrides": {
     "image-size": "^2.0.3",
