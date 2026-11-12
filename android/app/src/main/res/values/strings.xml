@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">I Hate PDF</string>
+    <string name="title_activity_main">I Hate PDF</string>
+    <string name="package_name">dev.ihatepdf.app</string>
+    <string name="custom_url_scheme">dev.ihatepdf.app</string>
+</resources>

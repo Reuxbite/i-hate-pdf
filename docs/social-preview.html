@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I Hate PDF social preview</title>
+    <style>
+      * { box-sizing: border-box; }
+      html, body { width: 1280px; height: 640px; margin: 0; overflow: hidden; }
+      body {
+        color: #f4f4f2;
+        background-color: #191a1a;
+        background-image:
+          linear-gradient(0deg, transparent 24%, rgba(114,114,114,.25) 25%, rgba(114,114,114,.25) 26%, transparent 27%, transparent 74%, rgba(114,114,114,.25) 75%, rgba(114,114,114,.25) 76%, transparent 77%),
+          linear-gradient(90deg, transparent 24%, rgba(114,114,114,.25) 25%, rgba(114,114,114,.25) 26%, transparent 27%, transparent 74%, rgba(114,114,114,.25) 75%, rgba(114,114,114,.25) 76%, transparent 77%);
+        background-size: 55px 55px;
+        font-family: "Segoe UI", Arial, sans-serif;
+      }
+      main { position: relative; height: 100%; padding: 72px 82px; }
+      .mark { display: flex; align-items: center; gap: 22px; }
+      .icon { width: 88px; height: 88px; display: grid; place-items: center; border: 2px solid #f4f4f2; background: #121313; }
+      .icon img { width: 62px; height: 62px; }
+      h1 { margin: 0; font: 700 72px/1 "Courier New", monospace; letter-spacing: .04em; text-transform: uppercase; }
+      p { width: 820px; margin: 42px 0 34px; color: #c8c8c4; font-size: 31px; line-height: 1.35; }
+      .tags { display: flex; gap: 13px; }
+      .tag { padding: 12px 17px; border: 1px solid #c8c8c4; background: #121313; font: 700 17px/1 "Courier New", monospace; text-transform: uppercase; }
+      .accent { color: #ff4055; border-color: #ff4055; }
+      .rail { position: absolute; right: 76px; top: 68px; bottom: 68px; width: 210px; border: 2px solid #d9d9d5; background: rgba(17,18,18,.96); padding: 24px; display: grid; gap: 15px; }
+      .tool { display: flex; align-items: center; gap: 13px; font: 700 15px/1.1 "Courier New", monospace; text-transform: uppercase; }
+      .dot { width: 13px; height: 13px; border: 2px solid #f4f4f2; }
+      .tool:first-child .dot, .tool:last-child .dot { background: #ff4055; border-color: #ff4055; }
+      footer { position: absolute; left: 82px; bottom: 58px; font: 700 17px/1 "Courier New", monospace; letter-spacing: .08em; color: #a8a8a5; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="mark">
+        <div class="icon"><img src="../public/icon.svg" alt="" /></div>
+        <h1>I Hate PDF</h1>
+      </div>
+      <p>Local-first PDF tools for desktop and Android. Encrypted vault. Biometric unlock. Manual private cloud.</p>
+      <div class="tags">
+        <span class="tag accent">34 tools</span>
+        <span class="tag">No uploads by default</span>
+        <span class="tag">Open source</span>
+      </div>
+      <div class="rail">
+        <div class="tool"><span class="dot"></span> Merge</div>
+        <div class="tool"><span class="dot"></span> Scan</div>
+        <div class="tool"><span class="dot"></span> OCR</div>
+        <div class="tool"><span class="dot"></span> Protect</div>
+        <div class="tool"><span class="dot"></span> Redact</div>
+        <div class="tool"><span class="dot"></span> Convert</div>
+        <div class="tool"><span class="dot"></span> Vault</div>
+      </div>
+      <footer>NOTHING-INSPIRED / PRIVATE BY DEFAULT / WEB + ANDROID</footer>
+    </main>
+  </body>
+</html>

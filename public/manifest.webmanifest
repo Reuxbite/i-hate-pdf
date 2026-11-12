@@ -1,0 +1,13 @@
+{
+  "name": "I Hate PDF",
+  "short_name": "I Hate PDF",
+  "description": "Private, local-first PDF tools.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#191a1a",
+  "theme_color": "#191a1a",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

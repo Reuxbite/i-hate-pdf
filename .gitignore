@@ -1,0 +1,16 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.playwright-cli/
+output/
+.idea/
+.vscode/
+android/.gradle/
+android/local.properties
+android/app/build/
+*.jks
+*.keystore
+release-assets/
